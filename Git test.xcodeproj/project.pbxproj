@@ -21,6 +21,7 @@
 		FA5E818019B285AD00FAD17A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5E816219B285AD00FAD17A /* UIKit.framework */; };
 		FA5E818819B285AD00FAD17A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA5E818619B285AD00FAD17A /* InfoPlist.strings */; };
 		FA5E818A19B285AD00FAD17A /* Git_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5E818919B285AD00FAD17A /* Git_testTests.m */; };
+		FA5E819519B50AF900FAD17A /* DHHTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FA5E819419B50AF900FAD17A /* DHHTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FA5E818519B285AD00FAD17A /* Git testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git testTests-Info.plist"; sourceTree = "<group>"; };
 		FA5E818719B285AD00FAD17A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA5E818919B285AD00FAD17A /* Git_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_testTests.m; sourceTree = "<group>"; };
+		FA5E819319B50AF900FAD17A /* DHHTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHHTest.h; sourceTree = "<group>"; };
+		FA5E819419B50AF900FAD17A /* DHHTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHHTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				FA5E817319B285AD00FAD17A /* DHHViewController.h */,
 				FA5E817419B285AD00FAD17A /* DHHViewController.m */,
 				FA5E817619B285AD00FAD17A /* Images.xcassets */,
+				FA5E819419B50AF900FAD17A /* DHHTest.m */,
+				FA5E819319B50AF900FAD17A /* DHHTest.h */,
 				FA5E816519B285AD00FAD17A /* Supporting Files */,
 			);
 			path = "Git test";
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5E819519B50AF900FAD17A /* DHHTest.m in Sources */,
 				FA5E817519B285AD00FAD17A /* DHHViewController.m in Sources */,
 				FA5E816B19B285AD00FAD17A /* main.m in Sources */,
 				FA5E816F19B285AD00FAD17A /* DHHAppDelegate.m in Sources */,
